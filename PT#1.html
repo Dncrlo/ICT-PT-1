@@ -4,8 +4,8 @@
     <style>
       ul{
         list-style-type:none;
-        margin: 10;
-        padding: 20;
+        margin: 0;
+        padding: 0;
         background-color:lavender;
         overflow:hidden;
       }
@@ -14,7 +14,15 @@
         float:left;
       }
 
-      li a:hover{
+      li a{
+        display:block;
+        color:pink;
+        text-align:center;
+        padding:14 16;
+        text-decoration:none;
+      }
+      
+      li a:hover:not(.active){
         background-color:white;
         color:lavender;
         font-size:15;
