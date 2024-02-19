@@ -3,7 +3,37 @@
   <head>
     <style>
       ul{
-        list-style-type:none
+        list-style-type:none;
+        margin: 10;
+        padding: 10;
+        background-color:lavender;
+        overflow:hidden;
+      }
+
+      li{
+        float:left;
+      }
+
+      li a:hover{
+        background-color:white;
+        color:lavender;
+        font-size:15;
+      }
+
+      .boxbox{
+        display:inline-block
+      }
+
+      .downdown{
+        display:none;
+        position:absolute;
+        background-color:pink;
+        min-width:160;
+      }
+
+      .boxbox:hover.downdown{
+        display:inline;
+      }
     </style>
     <body>
       <!--Navigation bar-->
