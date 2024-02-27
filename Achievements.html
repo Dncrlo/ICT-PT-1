@@ -4,9 +4,99 @@
     ul,li{
       text-size:50px;
     }
+
+     <style>
+            ul{
+            list-style-type:none;
+            margin:10px;
+            padding:10px;
+            background-color: rgb(157, 132, 173);
+            overflow:hidden
+        }
+
+        li{
+            float:left
+        }
+
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .lil{
+            float:right;
+            background-color:rgb(241, 209, 159)
+        }
+
+        li a:hover{
+            background-color: rgb(255, 249, 198);
+            font-size:20px;
+        }
+
+        .downdown{
+            display:inline-block
+        }
+
+        .lowow{
+            display:none;
+            position:absolute;
+            background-color: rgb(240, 218, 255);
+            min-width: 160px
+        }
+
+        .downdown:hover 
+        .lowow{
+            display:inline
+        }
+
+      .hid{
+        background-color:dark purple;
+        color:white;
+   
+      
+      }
+   
+    .p1{
+	    font-family:Arial, Helvetica, Sans-serif;
+	    font-size: 50px;
+    }
+
+img{
+	width:900px;
+	height:400px
+}
+    
+    .center {
+	    display:block;
+	    margin-left:auto;
+	    margin-right:auto;
+	    width:50%
+    }
+        
+	    
   </style>
 </head>
-<body background="background.png">
+<body background="background.png"> 
+  <header>
+	<img src="HEADER.jpg" alt="HEADER" class="center">
+        <h1 class="hid"> WELCOME TO 8 PEARL </h1>
+      </header>
+      <!--Navigation bar-->
+      <ul>
+        <li><a href="About Pearl.html"> About Us </a></li>
+        <li><a href="Students.html"> Students </a> </li>
+                  <!--Dropdown-->
+          <li class="downdown">
+              <a href="#achievements"> Pearl Iconic Moments </a>
+          <div class="lowow">
+              <a href="Subject teachers.html"> Memorable Quotes </a>
+              <a href="Class officers:.html"> Natural Habitat</a>
+              <a href="Achievements.html">Actual Achievements</a>
+          </div>
+	</li>
+      </ul>
   <ul>
     <li>intramurals</li>
     <li>Sarswela </li>
